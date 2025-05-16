@@ -55,19 +55,6 @@
 							<button class="booking-button button large">BOOKING</button>
 						</div>
 
-						<script>
-							document.querySelectorAll(".booking-button").forEach(function (btn) {
-							  btn.addEventListener("click", function () {
-								window.open(
-								  "https://ningningpainsolution.simplybook.it/v2/#book",
-								  "SimplyBookPopup",
-								  "width=800,height=600,resizable=yes,scrollbars=yes"
-								);
-							  });
-							});
-						</script>
-
-
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
@@ -236,6 +223,16 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				document.querySelectorAll(".booking-button").forEach(function (btn) {
+				  btn.addEventListener("click", function () {
+					window.open(
+					  "https://ningningpainsolution.simplybook.it/v2/#book",
+					  "SimplyBookPopup",
+					  "width=800,height=600,resizable=yes,scrollbars=yes"
+					);
+				  });
+				});
+			</script>
 	</body>
 </html>
