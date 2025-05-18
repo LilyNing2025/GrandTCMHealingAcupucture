@@ -307,6 +307,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #212931;
+		color: hsl(199.07deg 67.33% 56.06%);
 	}
 
 	blockquote {
@@ -564,6 +565,13 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 3rem;
 				}
+
+
+
+		/* .text-color--darkAccent {
+			color: hsl(var(--darkAccent-hsl));
+		} */
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -3332,7 +3340,8 @@ input, select, textarea {
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #ffffff;
+			/* color: #ffffff; */
+			color: hsl(199.07deg 67.33% 56.06%);
 		}
 
 		#intro blockquote {
