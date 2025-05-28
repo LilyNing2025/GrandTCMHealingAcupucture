@@ -733,6 +733,12 @@ body {
 					border-top-width: 0;
 				}
 
+				#main > .posts > article > p:nth-of-type(2) {
+					color: #717981;
+					text-align: center;
+					margin-top: 0.5rem;
+				}
+
 			@media screen and (max-width: 980px) {
 
 				#main > .posts > * {
